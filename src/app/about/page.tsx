@@ -10,10 +10,10 @@ export default function About() {
         <Image src={differntages} width={400} height={300} alt="About Us" className="rounded-lg shadow-md w-full h-60" />
         <div>  
           <p className="text-lg mb-4">
-            We are passionate about exploring and sharing knowledge about different ages throughout human history. Our team of historians and researchers work tirelessly to bring you accurate and engaging content about various historical periods.
+            {`We are passionate about exploring and sharing knowledge about different ages throughout human history. Our team of historians and researchers work tirelessly to bring you accurate and engaging content about various historical periods.`}
           </p>
           <p className="text-lg">
-            From the Stone Age to the Modern Era, we cover it all. Our goal is to make history accessible and interesting for everyone, whether you're a student, a history buff, or just curious about the past.
+            {`From the Stone Age to the Modern Era, we cover it all. Our goal is to make history accessible and interesting for everyone, whether you're a student, a history buff, or just curious about the past.`}
           </p>
         </div>
       </div>

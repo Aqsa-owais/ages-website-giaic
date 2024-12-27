@@ -33,7 +33,7 @@ export default function Services() {
           <div className="p-4">
             <h2 className="text-xl font-semibold">Online Courses</h2>
             <p>
-              In-depth online courses covering different historical periods.
+              {`In-depth online courses covering different historical periods.`}
             </p>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function Services() {
           />
           <div className="p-4">
             <h2 className="text-xl font-semibold">Research Assistance</h2>
-            <p>Expert assistance for historical research projects.</p>
+            <p>{`Expert assistance for historical research projects.`}</p>
           </div>
         </div>
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
@@ -60,7 +60,7 @@ export default function Services() {
           />
           <div className="p-4">
             <h2 className="text-xl font-semibold">Historical Reenactments</h2>
-            <p>Authentic reenactments of key events from various ages.</p>
+            <p>{`Authentic reenactments of key events from various ages.`}</p>
           </div>
         </div>
       </div>
