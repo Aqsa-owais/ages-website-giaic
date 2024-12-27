@@ -19,7 +19,7 @@ export default function Services() {
           />
           <div className="p-4">
             <h2 className="text-xl font-semibold">Educational Tours</h2>
-            <p>Immersive tours to historical sites from various ages.</p>
+            <p>{`Immersive tours to historical sites from various ages.`}</p>
           </div>
         </div>
         <div className="bg-white rounded-lg shadow-md overflow-hidden">

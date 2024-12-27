@@ -13,21 +13,21 @@ export default function Home() {
           <Image src={agestone} width={300} height={900} alt="Stone Age" className="w-full h-72" />
           <div className="p-4">
             <h2 className="text-xl font-semibold">Stone Age</h2>
-            <p>The earliest known period of human culture.</p>
+            <p>{`The earliest known period of human culture.`}</p>
           </div>
         </div>
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <Image src={bronzeage} width={300} height={200} alt="Bronze Age" className="w-full h-auto" />
           <div className="p-4">
             <h2 className="text-xl font-semibold">Bronze Age</h2>
-            <p>The period characterized by the use of bronze.</p>
+            <p>{`The period characterized by the use of bronze.`}</p>
           </div>
         </div>
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <Image src={differnetages} width={300} height={200} alt="Iron Age" className="w-full h-72" />
           <div className="p-4">
             <h2 className="text-xl font-semibold">Iron Age</h2>
-            <p>The period characterized by the widespread use of iron.</p>
+            <p>{`The period characterized by the widespread use of iron.`}</p>
           </div>
         </div>
       </div>
