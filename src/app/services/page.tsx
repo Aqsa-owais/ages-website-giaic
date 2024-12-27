@@ -7,7 +7,7 @@ import pic4 from "../images/pic4.jpg";
 export default function Services() {
   return (
     <div className="space-y-8">
-      <h1 className="text-4xl font-bold">Our Services</h1>
+      <h1 className="text-4xl font-bold">{`Our Services`}</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <Image
@@ -18,7 +18,7 @@ export default function Services() {
             className="w-full h-72"
           />
           <div className="p-4">
-            <h2 className="text-xl font-semibold">Educational Tours</h2>
+            <h2 className="text-xl font-semibold">{`Educational Tours`}</h2>
             <p>{`Immersive tours to historical sites from various ages.`}</p>
           </div>
         </div>
@@ -31,7 +31,7 @@ export default function Services() {
             className="w-full h-72"
           />
           <div className="p-4">
-            <h2 className="text-xl font-semibold">Online Courses</h2>
+            <h2 className="text-xl font-semibold">{`Online Courses`}</h2>
             <p>
               {`In-depth online courses covering different historical periods.`}
             </p>
@@ -46,7 +46,7 @@ export default function Services() {
             className="w-full h-72"
           />
           <div className="p-4">
-            <h2 className="text-xl font-semibold">Research Assistance</h2>
+            <h2 className="text-xl font-semibold">{`Research Assistance`}</h2>
             <p>{`Expert assistance for historical research projects.`}</p>
           </div>
         </div>
@@ -59,7 +59,7 @@ export default function Services() {
             className="w-full h-72"
           />
           <div className="p-4">
-            <h2 className="text-xl font-semibold">Historical Reenactments</h2>
+            <h2 className="text-xl font-semibold">{`Historical Reenactments`}</h2>
             <p>{`Authentic reenactments of key events from various ages.`}</p>
           </div>
         </div>

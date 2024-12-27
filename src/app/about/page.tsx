@@ -5,7 +5,7 @@ import differntages from "../images/ironage.jpg"
 export default function About() {
   return (
     <div className="space-y-8">
-      <h1 className="text-4xl font-bold">About Us</h1>
+      <h1 className="text-4xl font-bold">{`About Us`}</h1>
       <div className="flex flex-col md:flex-row items-center gap-8">
         <Image src={differntages} width={400} height={300} alt="About Us" className="rounded-lg shadow-md w-full h-60" />
         <div>  
